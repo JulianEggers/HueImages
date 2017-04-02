@@ -18,6 +18,7 @@ Drawable drawable = HueIcons.getIcon(context, phLight.getModelNumber());
 
 ## Rights
 "It is only allowed to use these images in combination with Hue products, and no other projects."
+
 All rights of the provided images are reserved by Philips Electronics N.V.
 
 ## License
