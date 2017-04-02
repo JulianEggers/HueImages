@@ -1,6 +1,6 @@
 # HueImages
 
-Android library for receiving the officially provided Images for Philips Hue Products.
+HueImages is an android library for receiving the officially provided images for Philips Hue products.
 
 The Images can be downloaded at: https://developers.meethue.com/documentation/icon-pack.
 
