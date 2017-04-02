@@ -1,0 +1,144 @@
+package systems.maju.hueimages;
+
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.support.v4.content.ContextCompat;
+
+/**
+ * Created by Julian on 01.04.2017.
+ */
+
+public class HueIcons {
+
+    public static Drawable getIcon(Context context, String uniqueId) {
+        switch (uniqueId) {
+
+            case "LLC014":
+                return ContextCompat.getDrawable(context, R.drawable.ic_aura);
+
+            case "HBL001":
+            case "HBL002":
+            case "HBL003":
+                return ContextCompat.getDrawable(context, R.drawable.ic_beyond_ceiling_pendant_table);
+
+            case "LCT002":
+                return ContextCompat.getDrawable(context, R.drawable.ic_br30);
+
+            case "LCT011":
+            case "LTW011":
+                return ContextCompat.getDrawable(context, R.drawable.ic_br30_slim);
+
+            case "BSB001":
+                return ContextCompat.getDrawable(context, R.drawable.ic_bridge_v1);
+
+            case "BSB002":
+                return ContextCompat.getDrawable(context, R.drawable.ic_bridge_v2);
+
+            case "LDF002":
+            case "LTF002":
+            case "LTF001":
+            case "LTC001":
+            case "LTC002":
+            case "LDF001":
+                return ContextCompat.getDrawable(context, R.drawable.ic_ceiling_square);
+
+            case "HEL001":
+            case "HEL002":
+                return ContextCompat.getDrawable(context, R.drawable.ic_entity);
+
+            case "LDD002":
+                return ContextCompat.getDrawable(context, R.drawable.ic_floor);
+
+            case "LLC020":
+                return ContextCompat.getDrawable(context, R.drawable.ic_go);
+
+            case "LCT003":
+                return ContextCompat.getDrawable(context, R.drawable.ic_gu10);
+
+            case "LTW013":
+                return ContextCompat.getDrawable(context, R.drawable.ic_gu10_perfectfit);
+
+            case "HIL001":
+            case "HIL002":
+                return ContextCompat.getDrawable(context, R.drawable.ic_impulse);
+
+            case "LLC006":
+            case "LLC010":
+                return ContextCompat.getDrawable(context, R.drawable.ic_iris);
+
+            case "SML001":
+                return ContextCompat.getDrawable(context, R.drawable.ic_motion_sensor);
+
+            case "LTP001":
+                return ContextCompat.getDrawable(context, R.drawable.ic_pendant_oval);
+
+            case "HML001":
+            case "HML002":
+            case "HML003":
+            case "HML004":
+            case "HML005":
+                return ContextCompat.getDrawable(context, R.drawable.ic_phoenix_ceiling_pendant_table_wall);
+
+            case "HML006":
+                return ContextCompat.getDrawable(context, R.drawable.ic_phoenix_down);
+
+            case "LLC013":
+                return ContextCompat.getDrawable(context, R.drawable.ic_storylight);
+
+            case "LDD001":
+                return ContextCompat.getDrawable(context, R.drawable.ic_table);
+
+            case "SWT001":
+                return ContextCompat.getDrawable(context, R.drawable.ic_tap);
+
+            case "LCT001":
+            case "LCT007":
+            case "LCT010":
+            case "LCT014":
+            case "LTW010":
+            case "LTW001":
+            case "LTW004":
+            case "LTW015":
+            case "LWB004":
+            case "LWB006":
+                return ContextCompat.getDrawable(context, R.drawable.ic_white_and_color_e27_b22);
+
+            case "LWB010":
+            case "LWB014":
+                return ContextCompat.getDrawable(context, R.drawable.ic_white_e27_b22);
+
+            case "LST001":
+            case "LST002":
+                return ContextCompat.getDrawable(context, R.drawable.ic_lightstrip);
+
+            case "LLC005":
+            case "LLC011":
+            case "LLC012":
+            case "LLC007":
+                return ContextCompat.getDrawable(context, R.drawable.ic_bloom);
+
+            case "LTP002":
+            case "LTD003":
+                return ContextCompat.getDrawable(context, R.drawable.ic_pendant_round);
+
+            case "LTP003":
+                return ContextCompat.getDrawable(context, R.drawable.ic_pendant_square);
+
+            case "LTC003":
+            case "LTD001":
+            case "LTD002":
+                return ContextCompat.getDrawable(context, R.drawable.ic_ceiling_round);
+
+            case "LDT001":
+            case "MWM001":
+                return ContextCompat.getDrawable(context, R.drawable.ic_recessed);
+
+            case "RWL021":
+                return ContextCompat.getDrawable(context, R.drawable.ic_hds);
+
+            default:
+                return ContextCompat.getDrawable(context, R.drawable.ic_white_and_color_e27_b22);
+
+        }
+    }
+}
