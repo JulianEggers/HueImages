@@ -11,7 +11,13 @@ The Images can be downloaded at: https://developers.meethue.com/documentation/ic
 - [ ] Rooms
 
 ## Usage
+In **`build.gradle`** (Module):
 
+```
+compile 'systems.maju:hueimages:0.1'
+```
+
+Receiving the image of a lamp:
 ```java
 Drawable drawable = HueIcons.getIcon(context, phLight.getModelNumber());
 ```

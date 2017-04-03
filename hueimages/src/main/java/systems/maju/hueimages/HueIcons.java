@@ -22,7 +22,6 @@ import android.support.v4.content.ContextCompat;
 /**
  * Created by Julian on 01.04.2017.
  */
-
 public class HueIcons {
 
     public static Drawable getIcon(Context context, String uniqueId) {
