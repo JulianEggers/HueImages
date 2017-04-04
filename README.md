@@ -22,6 +22,21 @@ Receiving the image of a lamp:
 Drawable drawable = HueIcons.getIcon(context, phLight.getModelNumber());
 ```
 
+### Colors
+This library does not provide images in different colors since you can change colors with android by setting a tint:
+
+#### XML
+```xml
+<ImageView
+    ...
+    android:tint="@color/your_color"
+/>
+```
+#### JAVA
+```java
+imageView.setColorFilter(ContextCompat.getColor(context, R.color.your_color));
+```
+
 ## Rights
 "It is only allowed to use these images in combination with Hue products, and no other projects."
 
