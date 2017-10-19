@@ -1,6 +1,7 @@
 Instructions for publishing library:
 
 1.  Check whether project contains 'local.properties' file.
+    File should not be in Version Control.
     'local.properties' should contain the following fields:
         - sdk.dir=D\:\\User\\AppData\\Local\\Android\\sdk
         - bintray.user=julianeggers
