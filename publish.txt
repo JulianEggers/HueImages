@@ -6,7 +6,11 @@ Instructions for publishing library:
         - bintray.user=julianeggers
         - bintray.apikey=********api-key********
 
-2. Update 'versionCode' and 'versionName' in 'build.gradle' (module)
+2. Update
+        'libraryVersion'
+        'versionCode'
+        'versionName'
+        in 'build.gradle' (module)
 
 3.  Run
         > gradlew install
