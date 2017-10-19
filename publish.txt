@@ -7,13 +7,18 @@ Instructions for publishing library:
         - bintray.user=julianeggers
         - bintray.apikey=********api-key********
 
-2. Update
+2.  Update examples in 'readme.md'
+
+3.  Update Version
         'libraryVersion'
         'versionCode'
         'versionName'
         in 'build.gradle' (module)
 
-3.  Run
+        'compile 'systems.maju:hueimages:x.x''
+        in readme.md
+
+4.  Run
         > gradlew install
         BUILD SUCCESSFUL
         > gradlew bintrayUpload
