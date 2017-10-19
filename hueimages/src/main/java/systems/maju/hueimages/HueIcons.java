@@ -150,6 +150,67 @@ public class HueIcons {
             case "RWL021":
                 return ContextCompat.getDrawable(context, R.drawable.ic_hds);
 
+            //ROOMS:
+            case "CLASS_LIVING_ROOM":
+                return ContextCompat.getDrawable(context, R.drawable.ic_living);
+
+            case "CLASS_GYM":
+                return ContextCompat.getDrawable(context, R.drawable.ic_gym);
+
+            case "CLASS_KIDS_BEDROOM":
+                return ContextCompat.getDrawable(context, R.drawable.ic_kids_bedroom);
+
+            case "CLASS_HALLWAY":
+                return ContextCompat.getDrawable(context, R.drawable.ic_hallway);
+
+            case "CLASS_OFFICE":
+                return ContextCompat.getDrawable(context, R.drawable.ic_office);
+
+            case "CLASS_GARAGE":
+                return ContextCompat.getDrawable(context, R.drawable.ic_garage);
+
+            case "CLASS_KITCHEN":
+                return ContextCompat.getDrawable(context, R.drawable.ic_kitchen);
+
+            case "CLASS_OTHER":
+                return ContextCompat.getDrawable(context, R.drawable.ic_other);
+
+            case "CLASS_FRONT_DOOR":
+                return ContextCompat.getDrawable(context, R.drawable.ic_frontdoor);
+
+            case "CLASS_RECREATION":
+                return ContextCompat.getDrawable(context, R.drawable.ic_recreation);
+
+            case "CLASS_BATHROOM":
+                return ContextCompat.getDrawable(context, R.drawable.ic_bathroom);
+
+            case "CLASS_TERRACE":
+                return ContextCompat.getDrawable(context, R.drawable.ic_terrace);
+
+            case "CLASS_GARDEN":
+                return ContextCompat.getDrawable(context, R.drawable.ic_garden);
+
+            case "CLASS_TOILET":
+                return ContextCompat.getDrawable(context, R.drawable.ic_toilet);
+
+            case "CLASS_NURSERY":
+                return ContextCompat.getDrawable(context, R.drawable.ic_nursery);
+
+            case "CLASS_BEDROOM":
+                return ContextCompat.getDrawable(context, R.drawable.ic_bedroom);
+
+            case "CLASS_CARPORT":
+                return ContextCompat.getDrawable(context, R.drawable.ic_carport);
+
+            case "CLASS_DRIVEWAY":
+                return ContextCompat.getDrawable(context, R.drawable.ic_driveway);
+
+            case "CLASS_DINING":
+                return ContextCompat.getDrawable(context, R.drawable.ic_dining);
+
+            case "CLASS_HOUSE":
+                return ContextCompat.getDrawable(context, R.drawable.ic_house);
+
             default:
                 return ContextCompat.getDrawable(context, R.drawable.ic_white_and_color_e27_b22);
 
