@@ -5,7 +5,7 @@ Instructions for publishing library:
     'local.properties' should contain the following fields:
         - sdk.dir=D\:\\User\\AppData\\Local\\Android\\sdk
         - bintray.user=julianeggers
-        - bintray.apikey=********api-key********
+        - bintray.apikey=********api-key******** (Stored in private GitHub repository)
 
 2.  Update examples in 'readme.md'
 
