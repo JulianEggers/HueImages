@@ -14,7 +14,7 @@ The Images can be downloaded at: https://developers.meethue.com/documentation/ic
 In **`build.gradle`** (Module):
 
 ```
-compile 'systems.maju:hueimages:0.2'
+compile 'systems.maju:hueimages:0.3'
 ```
 
 ## Usage
