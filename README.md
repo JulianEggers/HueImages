@@ -18,6 +18,16 @@ compile 'systems.maju:hueimages:0.2'
 ```
 
 ## Usage
+
+Receiving an image in xml:
+#### XML
+```xml
+<ImageView
+    ...
+    app:srcCompat="@drawable/'Drawable Name'" //'Drawable Name' value from table below
+/>
+```
+
 Receiving the image of a lamp/group in xml:
 #### XML
 ```xml
@@ -29,9 +39,14 @@ Receiving the image of a lamp/group in xml:
 If this library is added to the project the drawables can be accessed via the drawable names as provided in the table below.
 
 #### JAVA
+Receiving an image:
+```java
+Drawable drawable = HueIcons.getIcon(context, "Identifier"); //'Identifier' value from table below
+```
+
 Receiving the image of a light:
 ```java
-    Drawable drawable = HueIcons.getIcon(context, phLight.getModelNumber());
+Drawable drawable = HueIcons.getIcon(context, phLight.getModelNumber());
 ```
    
 Receiving the image of a group(room):
@@ -115,6 +130,11 @@ This list contains all images that are provided by this library:
 | CLASS_DRIVEWAY                                                        | ic_driveway                           |
 | CLASS_DINING                                                          | ic_dining                             |
 | CLASS_HOUSE                                                           | ic_house                              |
+|                                                                       |                                       |
+| **Pushlink**                                                          |                                       |
+| pushlink_bridgev1                                                     | ic_pushlink_bridgev1                  |
+| pushlink_bridgev2                                                     | ic_pushlink_bridgev2                  |
+
 
 The 'Drawable Names' can be found assoziated to an image in the icon_pack_2.0.
 The icon pack is officially provided by [Philips](https://developers.meethue.com/documentation/icon-pack)
