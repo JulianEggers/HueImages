@@ -56,6 +56,6 @@
     <string name="ic_tap">Tap Switch</string>
     <string name="ic_hds">Dimmer Switch</string>
     <string name="ic_motion_sensor">Motion Sensor</string>
-    <string name="unknown">Unkown</string>
+    <string name="unknown">Unknown</string>
 
 </resources>
