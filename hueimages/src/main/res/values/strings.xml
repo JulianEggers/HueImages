@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Philips Hue Group Names-->
+    <string name="group_bathroom">Bathroom</string>
+    <string name="group_bedroom">Bedroom</string>
+    <string name="group_carport">Carport</string>
+    <string name="group_dining">Dining</string>
+    <string name="group_driveway">Driveway</string>
+    <string name="group_front_door">Front door</string>
+    <string name="group_garage">Garage</string>
+    <string name="group_garden">Garden</string>
+    <string name="group_gym">Gym</string>
+    <string name="group_hallway">Hallway</string>
+    <string name="group_kids_bedroom">Kids bedroom</string>
+    <string name="group_kitchen">Kitchen</string>
+    <string name="group_living_room">Living room</string>
+    <string name="group_nursery">Nursery</string>
+    <string name="group_office">Office</string>
+    <string name="group_other">Other</string>
+    <string name="group_recreation">Recreation</string>
+    <string name="group_terrace">Terrace</string>
+    <string name="group_toilet">Toilet</string>
+    <string name="group_house">House</string>
+
+    <!--Philips Hue Lamp Names-->
+    <string name="ic_aura">Aura</string>
+    <string name="ic_beyond_ceiling_pendant_table">Beyond up / down</string>
+    <string name="ic_bridge_v1">Bridge v1</string>
+    <string name="ic_bridge_v2">Bridge v2</string>
+    <string name="ic_white_and_color_e27_b22_1">Color Lamp</string>
+    <string name="ic_white_and_color_e27_b22_2">Ambience</string>
+    <string name="ic_white_and_color_e27_b22_3">White</string>
+    <string name="ic_white_e27_b22">White Lamp</string>
+    <string name="ic_br30">Color Downlight</string>
+    <string name="ic_gu10">Color Spot</string>
+    <string name="ic_gu10_perfectfit">Ambience Spot</string>
+    <string name="ic_lightstrip">Lightstrip</string>
+    <string name="ic_iris">Iris</string>
+    <string name="ic_bloom">Bloom</string>
+    <string name="ic_storylight">Storylight</string>
+    <string name="ic_go">Go</string>
+    <string name="ic_impulse">Impulse up / down</string>
+    <string name="ic_entity">Entity up / down</string>
+    <string name="ic_phoenix_ceiling_pendant_table_wall_1">Phoenix up / down</string>
+    <string name="ic_phoenix_ceiling_pendant_table_wall_2">Phoenix</string>
+    <string name="ic_phoenix_down">Phoenix down</string>
+    <string name="ic_pendant_square">Ambiance Pendant</string>
+    <string name="ic_ceiling_square_1">White Wall Washer</string>
+    <string name="ic_ceiling_square_2">Ambiance Ceiling</string>
+    <string name="ic_ceiling_squar_3">White Ceiling</string>
+    <string name="ic_floor">White Floor</string>
+    <string name="ic_table">White Table</string>
+    <string name="ic_recessed_1">Ambiance Downlight</string>
+    <string name="ic_recessed_2">White</string>
+    <string name="ic_tap">Tap Switch</string>
+    <string name="ic_hds">Dimmer Switch</string>
+    <string name="ic_motion_sensor">Motion Sensor</string>
+    <string name="unknown">Unkown</string>
+
+</resources>

@@ -43,12 +43,6 @@ public class HueIcons {
             case "LTW011":
                 return ContextCompat.getDrawable(context, R.drawable.ic_br30_slim);
 
-            case "BSB001":
-                return ContextCompat.getDrawable(context, R.drawable.ic_bridge_v1);
-
-            case "BSB002":
-                return ContextCompat.getDrawable(context, R.drawable.ic_bridge_v2);
-
             case "LDF002":
             case "LTF002":
             case "LTF001":
@@ -219,9 +213,17 @@ public class HueIcons {
             case "pushlink_bridgev2":
                 return ContextCompat.getDrawable(context, R.drawable.ic_pushlink_bridgev2);
 
+            // Bridge
+            case "BSB001":
+                return ContextCompat.getDrawable(context, R.drawable.ic_bridge_v1);
+
+            case "BSB002":
+                return ContextCompat.getDrawable(context, R.drawable.ic_bridge_v2);
+
             default:
                 return ContextCompat.getDrawable(context, R.drawable.ic_white_and_color_e27_b22);
 
         }
     }
+
 }

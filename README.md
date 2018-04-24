@@ -41,20 +41,40 @@ If this library is added to the project the drawables can be accessed via the dr
 #### JAVA
 Receiving an image:
 ```java
-Drawable drawable = HueIcons.getIcon(context, "Identifier"); //'Identifier' value from table below
+Drawable drawable = HueImages.getIcon(context, "Identifier"); //'Identifier' value from table below
 ```
 
 Receiving the image of a light:
 ```java
-Drawable drawable = HueIcons.getIcon(context, phLight.getModelNumber());
+Drawable drawable = HueImages.getIcon(context, phLight.getModelNumber());
 ```
-   
+
 Receiving the image of a group(room):
 ```java
-Drawable drawable = HueIcons.getIcon(context, phGroup.getGroupClass().name());
+Drawable drawable = HueImages.getIcon(context, phGroup.getGroupClass().name());
 ```
 This only works if the class of the groups was set and is either one of the group names listed below.
 The official Philips Hue Apps are creating groups using this names.
+
+Receive the english name of the light:
+```java
+Drawable drawable = HueImages.getName(context, "identifier"); //'Identifier' value from table below
+```
+
+Receive the IDs ("identifier") of all lamp images provided by Philips:
+```java
+List<String> lampIds = HueImages.getAllLampIds();
+```
+
+Receive the IDs ("identifier") of all room images provided by Philips:
+```java
+List<String> roomIds =  HueImages.getALlRoomIds();
+```
+
+Receive the IDs ("identifier") of all bridge images provided by Philips:
+```java
+List<String> bridgeIds =  HueImages.getALlBridgeIds();
+```
 
 ### Colors
 This library does not provide images in different colors since you can change colors with android by setting a tint:
@@ -87,7 +107,7 @@ This list contains all images that are provided by this library:
 | LDF002 LTF002 LTF001 LTC001 LTC002 LDF001                             | ic_ceiling_square                     |
 | HEL001 HEL002                                                         | ic_entity                             |
 | LDD002                                                                | ic_floor                              |
-| LLC020                                                                | ic_go                                 | 
+| LLC020                                                                | ic_go                                 |
 | LCT003                                                                | ic_gu10                               |
 | LTW013                                                                | ic_gu10_perfectfit                    |
 | HIL001 HIL002                                                         | ic_impulse                            |
