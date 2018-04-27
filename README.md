@@ -14,7 +14,7 @@ The Images can be downloaded at: https://developers.meethue.com/documentation/ic
 In **`build.gradle`** (Module):
 
 ```
-compile 'systems.maju:hueimages:0.4'
+compile 'systems.maju:hueimages:0.5'
 ```
 
 ## Usage
@@ -102,8 +102,6 @@ This list contains all images that are provided by this library:
 | HBL001 HBL002 HBL003                                                  | ic_beyond_ceiling_pendant_table       |
 | LCT002                                                                | ic_br30                               |
 | LCT011 LTW011                                                         | ic_br30_slim                          |
-| BSB001                                                                | ic_bridge_v1                          |
-| BSB002                                                                | ic_bridge_v2                          |
 | LDF002 LTF002 LTF001 LTC001 LTC002 LDF001                             | ic_ceiling_square                     |
 | HEL001 HEL002                                                         | ic_entity                             |
 | LDD002                                                                | ic_floor                              |
@@ -154,11 +152,20 @@ This list contains all images that are provided by this library:
 | **Pushlink**                                                          |                                       |
 | pushlink_bridgev1                                                     | ic_pushlink_bridgev1                  |
 | pushlink_bridgev2                                                     | ic_pushlink_bridgev2                  |
+|                                                                       |                                       |
+| **Bridge**                                                            |                                       |
+| BSB001                                                                | ic_bridge_v1                          |
+| BSB002                                                                | ic_bridge_v2                          |
+|                                                                       |                                       |
+| **Custom Hue Images**                                                 |                                       |
+| HUE_GROUP                                                             | ic_hue_group                          |
 
 
-The 'Drawable Names' can be found assoziated to an image in the icon_pack_2.0.
+The 'Drawable Names' can be found associated to an image in the icon_pack_2.0.
 The icon pack is officially provided by [Philips](https://developers.meethue.com/documentation/icon-pack)
 or can be found in this [repository](/icon_pack_2.0/).
+Custom Hue Icons are special icons not provided by Philips. 
+They underlay the no special license as far as not explicitly stated different.
 
 ## Rights
 "It is only allowed to use these images in combination with Hue products, and no other projects."

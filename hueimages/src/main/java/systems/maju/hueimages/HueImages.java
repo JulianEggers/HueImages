@@ -106,7 +106,7 @@ public class HueImages {
         return list;
     }
 
-    public static List<String> getALlBridgeIds() {
+    public static List<String> getAllBridgeIds() {
         LinkedList<String> list = new LinkedList<>();
         list.add("BSB001");
         list.add("BSB002");
@@ -115,5 +115,9 @@ public class HueImages {
         return list;
     }
 
-
+    public static List<String> getAllCustomIconIds() {
+        LinkedList<String> list = new LinkedList<>();
+        list.add("HUE_GROUP");
+        return list;
+    }
 }
