@@ -206,6 +206,10 @@ public class HueIcons {
             case "CLASS_HOUSE":
                 return ContextCompat.getDrawable(context, R.drawable.ic_house);
 
+            //Default Group
+            case "group":
+                return ContextCompat.getDrawable(context, R.drawable.ic_hue_group);
+
             // PUSHLINK
             case "pushlink_bridgev1":
                 return ContextCompat.getDrawable(context, R.drawable.ic_pushlink_bridgev1);
