@@ -56,6 +56,11 @@
     <string name="ic_tap">Tap Switch</string>
     <string name="ic_hds">Dimmer Switch</string>
     <string name="ic_motion_sensor">Motion Sensor</string>
+
+    <!--Philips Hue Lamp Names-->
+    <string name="group">Group</string>
+
+    <!--Unknown-->
     <string name="unknown">Unknown</string>
 
 </resources>

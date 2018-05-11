@@ -1,8 +1,6 @@
 package systems.maju.hueimages;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
-import android.support.v4.content.ContextCompat;
 
 public class HueIconNames {
 
@@ -207,6 +205,13 @@ public class HueIconNames {
             case "BSB002":
                 return context.getResources().getString(R.string.ic_bridge_v2);
 
+
+             //Custom
+            case "HUE_GROUP":
+                return context.getResources().getString(R.string.group);
+
+
+            //Default
             default:
                 return context.getResources().getString(R.string.unknown);
 
