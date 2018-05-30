@@ -17,67 +17,118 @@ public class HueImages {
     }
 
     public static List<String> getAllLampIds() {
+        return getAllLampIds(false);
+    }
+
+    public static List<String> getAllLampIds(Boolean unique) {
         LinkedList<String> list = new LinkedList<>();
         list.add("LLC014");
+
         list.add("HBL001");
-        list.add("HBL002");
-        list.add("HBL003");
+        if (!unique) {
+            list.add("HBL002");
+            list.add("HBL003");
+        }
+
         list.add("LCT002");
+
         list.add("LCT011");
-        list.add("LTW011");
+        if (!unique)
+            list.add("LTW011");
+
         list.add("LDF002");
-        list.add("LTF002");
-        list.add("LTF001");
-        list.add("LTC001");
-        list.add("LTC002");
-        list.add("LDF001");
+        if (!unique) {
+            list.add("LTF002");
+            list.add("LTF001");
+            list.add("LTC001");
+            list.add("LTC002");
+            list.add("LDF001");
+        }
+
         list.add("HEL001");
-        list.add("HEL002");
+        if (!unique)
+            list.add("HEL002");
+
         list.add("LDD002");
+
         list.add("LLC020");
+
         list.add("LCT003");
+
         list.add("LTW013");
+
         list.add("HIL001");
-        list.add("HIL002");
+        if (!unique)
+            list.add("HIL002");
+
         list.add("LLC006");
-        list.add("LLC010");
+        if (!unique)
+            list.add("LLC010");
+
         list.add("SML001");
+
         list.add("LTP001");
+
         list.add("HML001");
-        list.add("HML002");
-        list.add("HML003");
-        list.add("HML004");
-        list.add("HML005");
+        if (!unique) {
+            list.add("HML002");
+            list.add("HML003");
+            list.add("HML004");
+            list.add("HML005");
+        }
+
         list.add("HML006");
+
         list.add("LLC013");
+
         list.add("LDD001");
+
         list.add("SWT001");
+
         list.add("LCT001");
-        list.add("LCT007");
-        list.add("LCT010");
-        list.add("LCT014");
-        list.add("LTW010");
-        list.add("LTW001");
-        list.add("LTW004");
-        list.add("LTW015");
-        list.add("LWB004");
-        list.add("LWB006");
+        if (!unique) {
+            list.add("LCT007");
+            list.add("LCT010");
+            list.add("LCT014");
+            list.add("LTW010");
+            list.add("LTW001");
+            list.add("LTW004");
+            list.add("LTW015");
+            list.add("LWB004");
+            list.add("LWB006");
+        }
+
         list.add("LWB010");
-        list.add("LWB014");
+        if (!unique)
+            list.add("LWB014");
+
         list.add("LST001");
-        list.add("LST002");
+        if (!unique)
+            list.add("LST002");
+
         list.add("LLC005");
-        list.add("LLC011");
-        list.add("LLC012");
-        list.add("LLC007");
+        if (!unique) {
+            list.add("LLC011");
+            list.add("LLC012");
+            list.add("LLC007");
+        }
+
         list.add("LTP002");
-        list.add("LTD003");
+        if (!unique)
+            list.add("LTD003");
+
         list.add("LTP003");
+
         list.add("LTC003");
-        list.add("LTD001");
-        list.add("LTD002");
+        if (!unique) {
+            list.add("LTD001");
+            list.add("LTD002");
+        }
+
         list.add("LDT001");
-        list.add("MWM001");
+        if (!unique)
+            list.add("MWM001");
+
         list.add("RWL021");
         return list;
     }

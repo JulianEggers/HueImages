@@ -14,7 +14,7 @@ The Images can be downloaded at: https://developers.meethue.com/documentation/ic
 In **`build.gradle`** (Module):
 
 ```
-compile 'systems.maju:hueimages:0.6'
+compile 'systems.maju:hueimages:0.7'
 ```
 
 ## Usage
@@ -61,9 +61,13 @@ Receive the english name of the light:
 Drawable drawable = HueImages.getName(context, "identifier"); //'Identifier' value from table below
 ```
 
-Receive the IDs ("identifier") of all lamp images provided by Philips:
+Receive the IDs ("identifier") of all lamps provided by Philips:
 ```java
 List<String> lampIds = HueImages.getAllLampIds();
+```
+If you only want those lamp ids with unique icon you can use this call:
+```java
+List<String> lampIdsWithUniqueIcon = HueImages.getAllLampIds(true);
 ```
 
 Receive the IDs ("identifier") of all room images provided by Philips:
