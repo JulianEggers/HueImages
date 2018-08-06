@@ -104,6 +104,7 @@ public class HueIcons {
             case "LCT007":
             case "LCT010":
             case "LCT014":
+            case "LCT016":
             case "LTW010":
             case "LTW001":
             case "LTW004":
