@@ -56,8 +56,11 @@
     <string name="ic_tap">Tap Switch</string>
     <string name="ic_hds">Dimmer Switch</string>
     <string name="ic_motion_sensor">Motion Sensor</string>
+
     <string name="hue_group">Group</string>
     <string name="hue_scene">Scene</string>
+
+    <!--Unknown-->
     <string name="unknown">Unknown</string>
 
 </resources>

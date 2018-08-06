@@ -1,8 +1,6 @@
 package systems.maju.hueimages;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
-import android.support.v4.content.ContextCompat;
 
 public class HueIconNames {
 
@@ -213,6 +211,7 @@ public class HueIconNames {
             case "HUE_SCENE":
                 return context.getResources().getString(R.string.hue_scene);
 
+            //Default
             default:
                 return context.getResources().getString(R.string.unknown);
 
