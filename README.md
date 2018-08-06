@@ -163,6 +163,9 @@ This list contains all images that are provided by this library:
 |                                                                       |                                       |
 | **Custom Hue Images**                                                 |                                       |
 | HUE_GROUP                                                             | ic_hue_group                          |
+| HUE_SCENE                                                             | ic_hue_scene                          |
+
+
 
 
 The 'Drawable Names' can be found associated to an image in the icon_pack_2.0.
