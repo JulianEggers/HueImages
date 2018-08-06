@@ -82,7 +82,7 @@ public class HueImages {
         return list;
     }
 
-    public static List<String> getALlRoomIds() {
+    public static List<String> getAllRoomIds() {
         LinkedList<String> list = new LinkedList<>();
         list.add("CLASS_LIVING_ROOM");
         list.add("CLASS_BEDROOM");
@@ -118,6 +118,7 @@ public class HueImages {
     public static List<String> getAllCustomIconIds() {
         LinkedList<String> list = new LinkedList<>();
         list.add("HUE_GROUP");
+        list.add("HUE_SCENE");
         return list;
     }
 }

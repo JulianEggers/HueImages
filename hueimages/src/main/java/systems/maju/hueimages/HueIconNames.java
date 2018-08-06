@@ -207,6 +207,12 @@ public class HueIconNames {
             case "BSB002":
                 return context.getResources().getString(R.string.ic_bridge_v2);
 
+            // Custom
+            case "HUE_GROUP":
+                return context.getResources().getString(R.string.hue_group);
+            case "HUE_SCENE":
+                return context.getResources().getString(R.string.hue_scene);
+
             default:
                 return context.getResources().getString(R.string.unknown);
 

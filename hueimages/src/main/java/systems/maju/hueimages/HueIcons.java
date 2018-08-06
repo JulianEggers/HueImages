@@ -210,6 +210,11 @@ public class HueIcons {
             case "HUE_GROUP":
                 return ContextCompat.getDrawable(context, R.drawable.ic_hue_group);
 
+            //Default SCENE
+            case "HUE_SCENE":
+                return ContextCompat.getDrawable(context, R.drawable.ic_hue_scene);
+
+
             // PUSHLINK
             case "pushlink_bridgev1":
                 return ContextCompat.getDrawable(context, R.drawable.ic_pushlink_bridgev1);
