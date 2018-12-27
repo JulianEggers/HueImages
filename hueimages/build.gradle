@@ -1,29 +1,5 @@
 apply plugin: 'com.android.library'
 
-ext {
-    bintrayRepo = 'hue'
-    bintrayName = 'hueimages'
-
-    publishedGroupId = 'systems.maju'
-    libraryName = 'Hue Images Library'
-    artifact = 'hueimages'
-
-    libraryDescription = 'Android library for receiving the Philips Hue product images.'
-
-    siteUrl = 'https://github.com/JulianEggers/HueImages'
-    gitUrl = 'https://github.com/JulianEggers/HueImages.git'
-
-    libraryVersion = '0.9'
-
-    developerId = 'julianeggers'
-    developerName = 'Julian Eggers'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
-
-
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -45,6 +21,3 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.1.0-alpha01'
 }
-
-apply from: 'install.gradle'
-apply from: 'bintray.gradle'
