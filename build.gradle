@@ -14,11 +14,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url 'https://jitpack.io' }
     }
 }
 
-dependencies {
-    implementation 'com.github.JulianEggers:HueImages:v0.9'
-}
 
