@@ -1,37 +1,13 @@
 apply plugin: 'com.android.library'
 
-ext {
-    bintrayRepo = 'hue'
-    bintrayName = 'hueimages'
-
-    publishedGroupId = 'systems.maju'
-    libraryName = 'Hue Images Library'
-    artifact = 'hueimages'
-
-    libraryDescription = 'Android library for receiving the Philips Hue product images.'
-
-    siteUrl = 'https://github.com/JulianEggers/HueImages'
-    gitUrl = 'https://github.com/JulianEggers/HueImages.git'
-
-    libraryVersion = '0.8'
-
-    developerId = 'julianeggers'
-    developerName = 'Julian Eggers'
-
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
-
-
 android {
     compileSdkVersion 28
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 28
-        versionCode 9
-        versionName "0.8"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        versionCode 11
+        versionName "0.11"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -39,16 +15,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    testImplementation 'junit:junit:4.12'
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha01'
 }
-
-apply from: 'install.gradle'
-apply from: 'bintray.gradle'

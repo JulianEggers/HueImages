@@ -15,7 +15,7 @@ Instructions for publishing library:
         'versionName'
         in 'build.gradle' (module)
 
-        'compile 'systems.maju:hueimages:x.x''
+        'implementation 'systems.maju:hueimages:x.x''
         in readme.md
 
 4.  Run
