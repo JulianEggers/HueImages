@@ -11,6 +11,17 @@ The Images can be downloaded at: https://developers.meethue.com/documentation/ic
 - [x] Rooms
 
 ## Import
+
+In **`build.gradle`** (Project):
+
+```
+repositories {
+    ...
+    maven { url "https://www.jitpack.io" }
+    ...
+}
+```    
+    
 In **`build.gradle`** (Module):
 
 ```
