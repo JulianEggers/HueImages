@@ -56,6 +56,8 @@ public class HueImages {
         list.add("LCT003");
 
         list.add("LTW013");
+        if (!unique)
+            list.add("LTW014");
 
         list.add("HIL001");
         if (!unique)
@@ -82,6 +84,9 @@ public class HueImages {
         list.add("LLC013");
 
         list.add("LDD001");
+        if (!unique) {
+            list.add("LTT001");
+        }
 
         list.add("SWT001");
 
@@ -90,12 +95,15 @@ public class HueImages {
             list.add("LCT007");
             list.add("LCT010");
             list.add("LCT014");
+            list.add("LCT015");
+            list.add("LCT016");
             list.add("LTW010");
             list.add("LTW001");
             list.add("LTW004");
             list.add("LTW015");
             list.add("LWB004");
             list.add("LWB006");
+            list.add("LWB007");
         }
 
         list.add("LWB010");
@@ -118,22 +126,66 @@ public class HueImages {
             list.add("LTD003");
 
         list.add("LTP003");
-
+        if (!unique) {
+            list.add("LTP004");
+            list.add("LTP005");
+        }
         list.add("LTC003");
         if (!unique) {
             list.add("LTD001");
+            list.add("LTC004");
+            list.add("LTC011");
+            list.add("LTC012");
             list.add("LTD002");
         }
+
+        list.add("LFF001");
 
         list.add("LDT001");
         if (!unique)
             list.add("MWM001");
 
         list.add("RWL021");
+
+        list.add("LCT012");
+        if (!unique){
+            list.add("LTW012");
+        }
+
         return list;
     }
 
+    /**
+     * Attention, this method has changed and is now returning all room ids that are supported for the new Hue SDK.
+     * Use getAllOldRoomIds() in case you want to receive the list of old rooms.
+     *
+     * @return List of all supported room classes
+     */
     public static List<String> getAllRoomIds() {
+        LinkedList<String> list = new LinkedList<>();
+        list.add("LIVING_ROOM");
+        list.add("BEDROOM");
+        list.add("CARPORT");
+        list.add("DINING");
+        list.add("DRIVEWAY");
+        list.add("FRONT_DOOR");
+        list.add("GARAGE");
+        list.add("GARDEN");
+        list.add("GYM");
+        list.add("HALLWAY");
+        list.add("KIDS_BEDROOM");
+        list.add("KITCHEN");
+        list.add("LIVING_ROOM");
+        list.add("NURSERY");
+        list.add("OFFICE");
+        list.add("OTHER");
+        list.add("RECREATION");
+        list.add("TERRACE");
+        list.add("TOILET");
+        return list;
+    }
+
+    public static List<String> getAllOldRoomIds() {
         LinkedList<String> list = new LinkedList<>();
         list.add("CLASS_LIVING_ROOM");
         list.add("CLASS_BEDROOM");

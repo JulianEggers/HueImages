@@ -62,5 +62,7 @@
 
     <!--Unknown-->
     <string name="unknown">Unknown</string>
+    <string name="hue_ambiance_floor">Hue ambiance floor</string>
+    <string name="ic_bulbcandle">Candle</string>
 
 </resources>

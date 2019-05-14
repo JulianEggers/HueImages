@@ -52,6 +52,7 @@ public class HueIconNames {
                 return context.getResources().getString(R.string.ic_gu10);
 
             case "LTW013":
+            case "LTW014":
                 return context.getResources().getString(R.string.ic_gu10_perfectfit);
 
             case "HIL001":
@@ -81,6 +82,8 @@ public class HueIconNames {
                 return context.getResources().getString(R.string.ic_storylight);
 
             case "LDD001":
+            case "LTT001":
+
                 return context.getResources().getString(R.string.ic_table);
 
             case "SWT001":
@@ -90,7 +93,13 @@ public class HueIconNames {
             case "LCT007":
             case "LCT010":
             case "LCT014":
+            case "LCT015":
+            case "LCT016":
                 return context.getResources().getString(R.string.ic_white_and_color_e27_b22_1);
+
+            case "LCT012":
+            case "LTW012":
+                return context.getResources().getString(R.string.ic_bulbcandle);
 
             case "LTW010":
             case "LTW001":
@@ -100,6 +109,7 @@ public class HueIconNames {
 
             case "LWB004":
             case "LWB006":
+            case "LWB007":
                 return context.getResources().getString(R.string.ic_white_and_color_e27_b22_3);
 
             case "LWB010":
@@ -119,13 +129,22 @@ public class HueIconNames {
 
             case "LTP001":
             case "LTP002":
+            case "LTP003":
+            case "LTP004":
+            case "LTP005":
             case "LTD003":
                 return context.getResources().getString(R.string.ic_pendant_square);
 
             case "LTC003":
+            case "LTC004":
+            case "LTC011":
+            case "LTC012":
             case "LTD001":
             case "LTD002":
                 return context.getResources().getString(R.string.ic_ceiling_square_2);
+
+            case "LFF001":
+                return context.getResources().getString(R.string.hue_ambiance_floor);
 
             case "LDT001":
                 return context.getResources().getString(R.string.ic_recessed_1);
@@ -137,63 +156,83 @@ public class HueIconNames {
                 return context.getResources().getString(R.string.ic_hds);
 
             //ROOMS:
+            case "LIVING_ROOM":
             case "CLASS_LIVING_ROOM":
                 return context.getResources().getString(R.string.group_living_room);
 
+            case "GYM":
             case "CLASS_GYM":
                 return context.getResources().getString(R.string.group_gym);
 
+            case "KIDS_BEDROOM":
             case "CLASS_KIDS_BEDROOM":
                 return context.getResources().getString(R.string.group_kids_bedroom);
 
+            case "HALLWAY":
             case "CLASS_HALLWAY":
                 return context.getResources().getString(R.string.group_hallway);
 
+            case "OFFICE":
             case "CLASS_OFFICE":
                 return context.getResources().getString(R.string.group_office);
 
+            case "GARAGE":
             case "CLASS_GARAGE":
                 return context.getResources().getString(R.string.group_garage);
 
+            case "KITCHEN":
             case "CLASS_KITCHEN":
                 return context.getResources().getString(R.string.group_kitchen);
 
+            case "OTHER":
             case "CLASS_OTHER":
                 return context.getResources().getString(R.string.group_other);
 
+            case "FRONT_DOOR":
             case "CLASS_FRONT_DOOR":
                 return context.getResources().getString(R.string.group_front_door);
 
+            case "RECREATION":
             case "CLASS_RECREATION":
                 return context.getResources().getString(R.string.group_recreation);
 
+            case "BATHROOM":
             case "CLASS_BATHROOM":
                 return context.getResources().getString(R.string.group_bathroom);
 
+            case "TERRACE":
             case "CLASS_TERRACE":
                 return context.getResources().getString(R.string.group_terrace);
 
+            case "GARDEN":
             case "CLASS_GARDEN":
                 return context.getResources().getString(R.string.group_garden);
 
+            case "TOILET":
             case "CLASS_TOILET":
                 return context.getResources().getString(R.string.group_toilet);
 
+            case "NURSERY":
             case "CLASS_NURSERY":
                 return context.getResources().getString(R.string.group_nursery);
 
+            case "BEDROOM":
             case "CLASS_BEDROOM":
                 return context.getResources().getString(R.string.group_bedroom);
 
+            case "CARPORT":
             case "CLASS_CARPORT":
                 return context.getResources().getString(R.string.group_carport);
 
+            case "DRIVEWAY":
             case "CLASS_DRIVEWAY":
                 return context.getResources().getString(R.string.group_driveway);
 
+            case "DINING":
             case "CLASS_DINING":
                 return context.getResources().getString(R.string.group_dining);
 
+            case "HOUSE":
             case "CLASS_HOUSE":
                 return context.getResources().getString(R.string.group_house);
 

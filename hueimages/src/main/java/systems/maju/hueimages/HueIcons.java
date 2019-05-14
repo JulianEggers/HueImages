@@ -17,6 +17,7 @@ package systems.maju.hueimages;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+
 import androidx.core.content.ContextCompat;
 
 /**
@@ -65,6 +66,7 @@ public class HueIcons {
                 return ContextCompat.getDrawable(context, R.drawable.ic_gu10);
 
             case "LTW013":
+            case "LTW014":
                 return ContextCompat.getDrawable(context, R.drawable.ic_gu10_perfectfit);
 
             case "HIL001":
@@ -95,6 +97,7 @@ public class HueIcons {
                 return ContextCompat.getDrawable(context, R.drawable.ic_storylight);
 
             case "LDD001":
+            case "LTT001":
                 return ContextCompat.getDrawable(context, R.drawable.ic_table);
 
             case "SWT001":
@@ -104,6 +107,7 @@ public class HueIcons {
             case "LCT007":
             case "LCT010":
             case "LCT014":
+            case "LCT015":
             case "LCT016":
             case "LTW010":
             case "LTW001":
@@ -111,6 +115,7 @@ public class HueIcons {
             case "LTW015":
             case "LWB004":
             case "LWB006":
+            case "LWB007":
                 return ContextCompat.getDrawable(context, R.drawable.ic_white_and_color_e27_b22);
 
             case "LWB010":
@@ -132,12 +137,25 @@ public class HueIcons {
                 return ContextCompat.getDrawable(context, R.drawable.ic_pendant_round);
 
             case "LTP003":
+            case "LTP004":
+            case "LTP005":
                 return ContextCompat.getDrawable(context, R.drawable.ic_pendant_square);
 
             case "LTC003":
+            case "LTC004":
+            case "LTC011":
+            case "LTC012":
             case "LTD001":
             case "LTD002":
                 return ContextCompat.getDrawable(context, R.drawable.ic_ceiling_round);
+
+            case "LFF001":
+                return ContextCompat.getDrawable(context, R.drawable.ic_archetypesfloorspot);
+
+            case "LCT012":
+            case "LTW012":
+                return ContextCompat.getDrawable(context, R.drawable.ic_bulbcandle);
+
 
             case "LDT001":
             case "MWM001":
@@ -147,63 +165,82 @@ public class HueIcons {
                 return ContextCompat.getDrawable(context, R.drawable.ic_hds);
 
             //ROOMS:
+            case "LIVING_ROOM":
             case "CLASS_LIVING_ROOM":
                 return ContextCompat.getDrawable(context, R.drawable.ic_living);
 
+            case "GYM":
             case "CLASS_GYM":
                 return ContextCompat.getDrawable(context, R.drawable.ic_gym);
 
+            case "KIDS_BEDROOM":
             case "CLASS_KIDS_BEDROOM":
                 return ContextCompat.getDrawable(context, R.drawable.ic_kids_bedroom);
 
+            case "HALLWAY":
             case "CLASS_HALLWAY":
                 return ContextCompat.getDrawable(context, R.drawable.ic_hallway);
 
+            case "OFFICE":
             case "CLASS_OFFICE":
                 return ContextCompat.getDrawable(context, R.drawable.ic_office);
 
+            case "GARAGE":
             case "CLASS_GARAGE":
                 return ContextCompat.getDrawable(context, R.drawable.ic_garage);
 
+            case "KITCHEN":
             case "CLASS_KITCHEN":
                 return ContextCompat.getDrawable(context, R.drawable.ic_kitchen);
 
+            case "OTHER":
             case "CLASS_OTHER":
                 return ContextCompat.getDrawable(context, R.drawable.ic_other);
 
+            case "FRONT_DOOR":
             case "CLASS_FRONT_DOOR":
                 return ContextCompat.getDrawable(context, R.drawable.ic_frontdoor);
 
+            case "RECREATION":
             case "CLASS_RECREATION":
                 return ContextCompat.getDrawable(context, R.drawable.ic_recreation);
 
+            case "BATHROOM":
             case "CLASS_BATHROOM":
                 return ContextCompat.getDrawable(context, R.drawable.ic_bathroom);
 
+            case "TERRACE":
             case "CLASS_TERRACE":
                 return ContextCompat.getDrawable(context, R.drawable.ic_terrace);
 
-            case "CLASS_GARDEN":
+            case "GARDENN":
                 return ContextCompat.getDrawable(context, R.drawable.ic_garden);
 
+            case "TOILET":
             case "CLASS_TOILET":
                 return ContextCompat.getDrawable(context, R.drawable.ic_toilet);
 
+            case "NURSERY":
             case "CLASS_NURSERY":
                 return ContextCompat.getDrawable(context, R.drawable.ic_nursery);
 
+            case "BEDROOM":
             case "CLASS_BEDROOM":
                 return ContextCompat.getDrawable(context, R.drawable.ic_bedroom);
 
+            case "CARPORT":
             case "CLASS_CARPORT":
                 return ContextCompat.getDrawable(context, R.drawable.ic_carport);
 
+            case "DRIVEWAY":
             case "CLASS_DRIVEWAY":
                 return ContextCompat.getDrawable(context, R.drawable.ic_driveway);
 
+            case "DINING":
             case "CLASS_DINING":
                 return ContextCompat.getDrawable(context, R.drawable.ic_dining);
 
+            case "HOUSE":
             case "CLASS_HOUSE":
                 return ContextCompat.getDrawable(context, R.drawable.ic_house);
 
